@@ -1,7 +1,3 @@
-ChatGPT
-
-Certainly! Writing a README for your GitHub project is a great way to provide information to users and contributors. Here's a basic template you can use as a starting point. Customize it based on the specifics of your project:
-Quiz App
 
 A simple quiz application for learning country flags.
 Table of Contents
