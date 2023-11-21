@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".FirstFragment"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:gravity="center_horizontal|bottom"
+        android:text="Choose the number of options for each question :"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:onClick="onRadioButtonClicked">
+
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="2" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:text="4" />
+
+        <RadioButton
+            android:id="@+id/radioButton6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="6" />
+
+        <RadioButton
+            android:id="@+id/radioButton8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="8" />
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/titleTextView2"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:gravity="center_horizontal|bottom"
+        android:text="Choose continents :"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="315dp">
+
+        <RadioButton
+            android:id="@+id/radioButtonAfrica"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Africa" />
+
+        <RadioButton
+            android:id="@+id/radioButtonAsia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Asia" />
+
+        <RadioButton
+            android:id="@+id/radioButtonEurope"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Europe" />
+
+        <RadioButton
+            android:id="@+id/radioButtonNorthAmerica"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="North_America" />
+
+        <RadioButton
+            android:id="@+id/radioButtonOceania"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Oceania" />
+
+        <RadioButton
+            android:id="@+id/radioButtonSouthAmerica"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="South_America" />
+
+
+    </RadioGroup>
+
+
+
+    <Button
+        android:id="@+id/button_first"
+        android:layout_width="103dp"
+        android:layout_height="wrap_content"
+        android:text="@string/next" />
+
+</LinearLayout>

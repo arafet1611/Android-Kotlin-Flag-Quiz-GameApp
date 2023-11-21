@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="reponseTextView" type="id" />
+    <item name="b_answer8" type="id" />
+    <item name="b_answer7" type="id" />
+    <item name="row4LinearLayout" type="id" />
+    <item name="b_answer6" type="id" />
+    <item name="b_answer5" type="id" />
+    <item name="row3LinearLayout" type="id" />
+    <item name="b_answer4" type="id" />
+    <item name="b_answer3" type="id" />
+    <item name="row2LinearLayout" type="id" />
+    <item name="b_answer2" type="id" />
+    <item name="row1LinearLayout" type="id" />
+    <item name="choixPaysTextView" type="id" />
+    <item name="drapeauxImageView" type="id" />
+</resources>
